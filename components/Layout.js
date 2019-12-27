@@ -7,7 +7,8 @@ const layoutStyle = {
 };
 
 const Layout = Page => {
-  return () => (<div style={layoutStyle}>
+  return () => (
+    <div style={layoutStyle}>
       <Header/>
       <Page/>
     </div>
